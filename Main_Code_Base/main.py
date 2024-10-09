@@ -21,7 +21,7 @@ def main():
     ])
 
     # Load DataSet
-    dataset = datasets.ImageFolder(root='C:/Users/Jacks/Python/Cell_Recognition/Cell_Dataset', transform=transform)
+    dataset = datasets.ImageFolder(root='INPUT DATASET PATH HERE', transform=transform)
 
     # Split dataset into training and validation sets (80% train, 20% validation)goal
     train_size = int(0.8* len(dataset))
@@ -99,7 +99,7 @@ def main():
         return dataset.classes[predicted.item()]
 
     #Example
-    image_path = 'C:/Users/Jacks/Python/Cell_Recognition/Main_Code_Base/Sample_1206.jpg'
+    image_path = 'INPUT SAMPLE IMG PATH HERE'
     predicted_class = predict_image(image_path)
     print(f'Predicted class: {predicted_class}')
 if __name__ == '__main__':

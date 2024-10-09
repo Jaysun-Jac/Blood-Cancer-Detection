@@ -3,7 +3,7 @@ When using script remeber to specifiy the PATH of where your image dataset is lo
 
 Datasets I used:
 
-Cancer Blood Cells img Dataset: https://www.kaggle.com/datasets/akhiljethwa/blood-cancer-image-data
+Cancer Blood Cells img Dataset: https://www.kaggle.com/datasets/akhiljethwa/blood-cancer-image-data (Imgs in .tiff files so you may need to convert to .jpeg like I did)
 
 Health Blood Cells img Dataset: https://www.kaggle.com/datasets/unclesamulus/blood-cells-image-dataset
 

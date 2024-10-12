@@ -1,5 +1,5 @@
 Script that classifies two types of images (Cancerous or health leukocytes) through pytorch
-When using script remeber to specifiy the PATH of where your image dataset is located
+When using script remember to specifiy the PATH of where your image dataset is located
 
 Datasets I used:
 
